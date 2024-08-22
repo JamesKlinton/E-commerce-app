@@ -18,7 +18,9 @@ Widget boxStyle(){
     ),
     child: TextField(
       decoration: InputDecoration(
-        icon: IconButton(onPressed: (){}, icon: Icon(Icons.search)),
+        icon: IconButton(onPressed: (){
+          
+        }, icon: Icon(Icons.search)),
         border: InputBorder.none,
         contentPadding: EdgeInsets.all(5)
       ),

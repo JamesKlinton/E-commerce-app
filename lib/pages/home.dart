@@ -23,6 +23,7 @@ class _HomeState extends State<Home> {
           child: Column(
             children: [
               Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -34,7 +35,6 @@ class _HomeState extends State<Home> {
                       Text("Salatiga City, Central Java"),
                     ],
                   ),
-                  Box(120),
                   IconButton(onPressed: (){
                     Navigator.of(context).push(MaterialPageRoute(builder: (context) =>MyCart()));
                   }, icon: Icon(Icons.shopping_cart_outlined),

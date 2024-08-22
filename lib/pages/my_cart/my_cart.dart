@@ -9,9 +9,7 @@ class MyCart extends StatefulWidget {
 }
 
 class _MyCartState extends State<MyCart> {
-  List<Widget> items =[
-
-  ];
+ 
   @override
   Widget build(BuildContext context) {
     return Scaffold(

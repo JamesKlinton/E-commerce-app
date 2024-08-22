@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "840665764219",
+    "project_id": "traitz-commerce",
+    "storage_bucket": "traitz-commerce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840665764219:android:8d85fa32569968de04edde",
+        "android_client_info": {
+          "package_name": "com.example.traitz_co"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNSkVfJC1aI94_RL9soONROjakUnrizQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
